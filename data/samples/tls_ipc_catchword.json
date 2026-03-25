@@ -1,0 +1,83 @@
+{
+  "table_name": "tls_ipc_catchword",
+  "columns": [
+    "catchword",
+    "symbol",
+    "symbol_short",
+    "symbol_patstat",
+    "parent_catchword"
+  ],
+  "rows": [
+    {
+      "catchword": "PROVERS for permitting dough to rise",
+      "symbol": "A21C0013000000",
+      "symbol_short": "A21C13/00",
+      "symbol_patstat": "A21C  13/00",
+      "parent_catchword": "PROVERS"
+    },
+    {
+      "catchword": "BEAM(S) as constructional elements",
+      "symbol": "F16S",
+      "symbol_short": "F16S",
+      "symbol_patstat": null,
+      "parent_catchword": "BEAM(S)"
+    },
+    {
+      "catchword": "buildings for transformer SUBSTATIONS",
+      "symbol": "E04H0005040000",
+      "symbol_short": "E04H5/04",
+      "symbol_patstat": "E04H   5/04",
+      "parent_catchword": "SUBSTATIONS"
+    },
+    {
+      "catchword": "tanning LEATHER",
+      "symbol": "C14C0003000000",
+      "symbol_short": "C14C3/00",
+      "symbol_patstat": "C14C   3/00",
+      "parent_catchword": "LEATHER"
+    },
+    {
+      "catchword": "FOOD processors [= multi-purpose food preparation machines]",
+      "symbol": "A47J0044000000",
+      "symbol_short": "A47J44/00",
+      "symbol_patstat": "A47J  44/00",
+      "parent_catchword": "FOOD"
+    },
+    {
+      "catchword": "CASE(S) for umbrellas or walking sticks",
+      "symbol": "A45B0015000000",
+      "symbol_short": "A45B15/00",
+      "symbol_patstat": "A45B  15/00",
+      "parent_catchword": "CASE(S)"
+    },
+    {
+      "catchword": "breaking EMULSION(S)",
+      "symbol": "B01D0017040000",
+      "symbol_short": "B01D17/04",
+      "symbol_patstat": "B01D  17/04",
+      "parent_catchword": "EMULSION(S)"
+    },
+    {
+      "catchword": "GLOSSING prints",
+      "symbol": "B41F0023080000",
+      "symbol_short": "B41F23/08",
+      "symbol_patstat": "B41F  23/08",
+      "parent_catchword": "GLOSSING"
+    },
+    {
+      "catchword": "TREPANNING metal",
+      "symbol": "B23B0041020000",
+      "symbol_short": "B23B41/02",
+      "symbol_patstat": "B23B  41/02",
+      "parent_catchword": "TREPANNING"
+    },
+    {
+      "catchword": "glide fasteners",
+      "symbol": "A44B0019000000",
+      "symbol_short": "A44B19/00",
+      "symbol_patstat": "A44B  19/00",
+      "parent_catchword": "GLIDERS"
+    }
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,22 @@
+{
+  "table_name": "tls224_appln_cpc",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains Cooperative Patent Classification (CPC) codes assigned to patent applications, providing detailed technical categorization.",
+  "columns": [
+    {
+      "name": "cpc_class_symbol",
+      "type": "STRING",
+      "description": "CPC classification code indicating the technical field and subfield of the invention."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    }
+  ],
+  "estimated_rows": 436450350,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

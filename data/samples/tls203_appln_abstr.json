@@ -1,0 +1,61 @@
+{
+  "table_name": "tls203_appln_abstr",
+  "columns": [
+    "appln_id",
+    "appln_abstract_lg",
+    "appln_abstract"
+  ],
+  "rows": [
+    {
+      "appln_id": 266989745,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To address the need for improved screening and diagnostic workflow for dental imaging. <P>SOLUTION: The method for displaying live video of a tooth comprises: identifying a tooth tissue region in a viewable image frame obtained from a video stream (90); processing pixel data within the tooth tissue region to identify a suspected caries site (100); and modifying intensity values for pixels that correspond to the suspected caries site (110). A highlighted viewable image frame 37 is formed as a combination of the modified intensity values corresponding to the suspected caries site and other pixel values in the viewable image frame. The highlighted viewable image frame 37 is displayed in video form. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266990804,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To calculate appropriate safe stock quantities considering arrival delay of commercial products. <P>SOLUTION: This system 1 for calculating safe stock quantities stores actual arrival quantity of commercial produces relative to quantity scheduled for arrival with respect to each day; calculates a differential value between the quantity scheduled for arrival and the actual arrival quantity as a first differential value with respect to each day within an evaluation period; executes a process with respect to each day within the evaluation period to calculate a value by accumulating the first differential values for procurement days as a first cumulative difference; calculates an average value of the first cumulative differences for the respective days within the evaluation period and a standard deviation value; and calculates the safe stock quantities of the commercial products with respect to the arrival delay by using the calculated average value of the first cumulative differences and the standard deviation value. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266989878,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To draw a different drawing pattern without providing a turning mechanism for turning an arraying direction of nozzles on a carriage. <P>SOLUTION: An arraying direction of nozzles provided on a carriage 200 moving on a guide rail 102 is different from an arraying direction of nozzles provided on a carriage 400 moving on a guide rail 104 different from the guide rail 102. Therefore, the nozzles can be used by moving the nozzles on each different moving route to an ejecting region when a liquid material is ejected onto the ejecting region from the nozzles so that the liquid material can be ejected from the nozzles having a favorable arraying direction depending on a shape of the ejecting region (e.g. a shape of each color pixel of a color filter). <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266992573,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To draw different drawing patterns without providing a carriage with a rotating mechanism for rotating an array direction of nozzles. <P>SOLUTION: Array directions of nozzles provided on a plurality of carriages moving along a pair of guide rails 102 are different from each other. When a liquid material is discharged from nozzles to a discharge target region, the carriages 200 and 400 are moved along the guide rails 102 to change nozzles through which the liquid material is discharged to the discharge target region, so that nozzles through which the liquid material is discharged to the discharge target region can be changed to nozzles having a different array direction. Consequently, the liquid material can be discharged through nozzles having preferable array directions corresponding to different drawing patterns such as shapes of respective color pixels of a color filter. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266991141,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To effectively utilize shredder dust generated in mass as a fuel by using the absorbing ability thereof. <P>SOLUTION: The solid fuel comprising a mixture of 100 pts.wt. shredder dust and 30-150 pts.wt. oil mud is utilized as a fuel for cement production by inserting the solid fuel to a calciner of an NSP kiln of cement-manufacturing facilities. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266989665,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To estimate noise index even if noise components are nonuniform and an influence of movement targeting a person is unignorable. <P>SOLUTION: This magnetic resonance diagnosis apparatus includes a coil assembly 100 including a high-frequency coil 107, a transmission unit 108T which excites magnetization of a specific atomic nucleus of an object via the high-frequency coil, a reception unit 108R including a detection unit 121 for receiving a magnetic resonance signal via the high-frequency coil, a low-pass filter 123, and an analog/digital converter 125, a control unit 106 which sets a passband of the low-pass filter to not less than three odd multiple of a frequency band determined from an imaging field of view, and sets a sampling frequency of the analog/digital converter to an oversampling frequency exceeding a signal band of the magnetic resonance signal, a noise spatial distribution generating unit 110 which generates a noise spatial distribution on the basis of an output from the reception unit. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266992877,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To finely manage running cost as the whole system by permitting or inhibiting post processing specified by a print job and/or the use of paper in each division. <P>SOLUTION: A composite machine 1 receives the division code of a division 3-i to which a terminal device 4 being the source of the print job belongs from the terminal device 4. The post processing specified by the print job and/or the setting information of the paper is extracted. After that, when the post processing specified by the setting information and/or the use of the paper is inhibited in function limiting information, the post processing specified by the setting information and/or the use of the paper is inhibited when the print job is executed. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266994408,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To form an organic piezoelectric material excellent in piezoelectric characteristics and heat resistance by using a polarization processing method for effectively forming a polarized structure, and to provide an organic piezoelectric film using the same, an ultrasonic vibrator, an ultrasonic probe, and an ultrasonic medical image diagnosis apparatus. <P>SOLUTION: An organic piezoelectric material is processed by polarization processing by corona discharge. A planar electrode is installed in such a manner as to bring into contact with the top of a first surface of the organic piezoelectric material, and a cylindrical electrode for corona discharge is installed on a second surface side opposed to the first surface. The organic piezoelectric material is subjected to polarization processing by corona discharge. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266990520,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To improve roll-feeling at the time of turning with a simple structure. <P>SOLUTION: A shape of a break line of a vehicle hood, a shape of a break line of a vehicle instrument panel, or a shape of an upper end of a ceramic line formed in a windshield glass is set to a curve expressed by a hyperbolic function of y<SP>2</SP>= Ax<SP>2</SP>+2Bx+C. Here, x is an angle of depression; y is an azimuth; A is a constant expressed by summation of a ratio of distance between a viewpoint height and a roll axis with respect to the viewpoint height, and an inverse number of a product of a roll rate and the viewpoint height; B is a constant expressed by an inverse number of the roll rate; and C is a constant expressed by the constant A, the constant B, and an angle of depression in the viewing direction of a driver. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    },
+    {
+      "appln_id": 266992432,
+      "appln_abstract_lg": "en",
+      "appln_abstract": "<P>PROBLEM TO BE SOLVED: To improve the operability of an electronic device for changing time setting by manual operation. <P>SOLUTION: This electronic device comprises a time measuring means for measuring the time, a present time managing means for managing the present time based on the measurement result of the time measuring means, a time setting means for setting time indicated by the time information displayed on a displaying means as a reference where the present time managing means starts to newly manage the present time, and a controlling means for performing control so that the time setting means does not operate after a start receiving means receives a change start command and before a time change receiving means receives a command from an operator, and performing control so that the time setting means can operate after the time change receiving means receives the command from the operator. <P>COPYRIGHT: (C)2009,JPO&INPIT"
+    }
+  ],
+  "row_count": 10
+}

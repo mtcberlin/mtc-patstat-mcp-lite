@@ -1,0 +1,37 @@
+{
+  "table_name": "tls215_citn_categ",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Provides categorization of patent citations, indicating their relevance and importance in the examination process.",
+  "columns": [
+    {
+      "name": "citn_id",
+      "type": "INT64",
+      "description": "Sequential identifier for citations within a patent publication."
+    },
+    {
+      "name": "pat_publn_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the citing patent publication."
+    },
+    {
+      "name": "relevant_claim",
+      "type": "INT64",
+      "description": "Specific claim number(s) to which the citation is relevant."
+    },
+    {
+      "name": "citn_replenished",
+      "type": "INT64",
+      "description": "Flag indicating if citation data was replenished or enhanced from additional sources."
+    },
+    {
+      "name": "citn_categ",
+      "type": "STRING",
+      "description": "Category code indicating the citation's relevance (e.g., X=particularly relevant, Y=relevant in combination)."
+    }
+  ],
+  "estimated_rows": 1346861951,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

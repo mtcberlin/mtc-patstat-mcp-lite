@@ -1,0 +1,27 @@
+{
+  "table_name": "tls230_appln_techn_field",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Assigns patent applications to broad technical fields based on IPC codes, enabling high-level technology analysis.",
+  "columns": [
+    {
+      "name": "weight",
+      "type": "FLOAT64",
+      "description": "Weight indicating the relative importance of this technical field for the application."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "techn_field_nr",
+      "type": "INT64",
+      "description": "Numeric code representing the technical field category."
+    }
+  ],
+  "estimated_rows": 166549096,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

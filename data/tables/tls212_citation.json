@@ -1,0 +1,62 @@
+{
+  "table_name": "tls212_citation",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains all patent and non-patent literature citations made in patent publications, indicating prior art and technological relationships.",
+  "columns": [
+    {
+      "name": "citn_id",
+      "type": "INT64",
+      "description": "Sequential identifier for citations within a patent publication."
+    },
+    {
+      "name": "pat_publn_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the citing patent publication."
+    },
+    {
+      "name": "cited_pat_publn_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the cited patent publication (null if citing non-patent literature)."
+    },
+    {
+      "name": "cited_appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the cited patent application (null if citing non-patent literature)."
+    },
+    {
+      "name": "npl_citn_seq_nr",
+      "type": "INT64",
+      "description": "Sequential number for non-patent literature citations within the publication."
+    },
+    {
+      "name": "citn_gener_auth",
+      "type": "STRING",
+      "description": "Patent authority that generated or provided the citation."
+    },
+    {
+      "name": "citn_replenished",
+      "type": "INT64",
+      "description": "Flag indicating if citation data was enhanced from additional sources beyond the original publication."
+    },
+    {
+      "name": "citn_origin",
+      "type": "STRING",
+      "description": "Origin of the citation (e.g., examiner-added, applicant-provided, search report)."
+    },
+    {
+      "name": "pat_citn_seq_nr",
+      "type": "INT64",
+      "description": "Sequential number for patent citations within the publication."
+    },
+    {
+      "name": "cited_npl_publn_id",
+      "type": "STRING",
+      "description": "Foreign key referencing the cited non-patent literature (null if citing a patent)."
+    }
+  ],
+  "estimated_rows": 596775557,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

@@ -1,0 +1,57 @@
+{
+  "table_name": "tls801_country",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Reference table containing country codes and names with organizational membership information (EU, EPO, OECD).",
+  "columns": [
+    {
+      "name": "iso_alpha3",
+      "type": "STRING",
+      "description": "Three-letter ISO country code."
+    },
+    {
+      "name": "st3_name",
+      "type": "STRING",
+      "description": "Full country name in English."
+    },
+    {
+      "name": "continent",
+      "type": "STRING",
+      "description": "Continent where the country is located."
+    },
+    {
+      "name": "eu_member",
+      "type": "STRING",
+      "description": "Flag or date indicating European Union membership status."
+    },
+    {
+      "name": "oecd_member",
+      "type": "STRING",
+      "description": "Flag or date indicating OECD membership status."
+    },
+    {
+      "name": "discontinued",
+      "type": "STRING",
+      "description": "Flag or date indicating if the country code is no longer in use (e.g., historical countries)."
+    },
+    {
+      "name": "ctry_code",
+      "type": "STRING",
+      "description": "Two-letter ISO country code."
+    },
+    {
+      "name": "organisation_flag",
+      "type": "STRING",
+      "description": "Flag indicating if the code represents an international organization rather than a country."
+    },
+    {
+      "name": "epo_member",
+      "type": "STRING",
+      "description": "Flag or date indicating European Patent Office membership status."
+    }
+  ],
+  "estimated_rows": 242,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

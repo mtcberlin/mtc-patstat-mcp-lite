@@ -1,0 +1,61 @@
+{
+  "table_name": "tls222_appln_jp_class",
+  "columns": [
+    "appln_id",
+    "jp_class_scheme",
+    "jp_class_symbol"
+  ],
+  "rows": [
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H01M2  /10      Z"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H04N5  /225  100"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "G03B17 /02"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H04N5  /225     F"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H04N5  /225"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H04N23 /00"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "G03B7  /26"
+    },
+    {
+      "appln_id": 28451452,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "H04N23 /50"
+    },
+    {
+      "appln_id": 28451453,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "B09B101:30"
+    },
+    {
+      "appln_id": 28451453,
+      "jp_class_scheme": "FI",
+      "jp_class_symbol": "B09B5  /00      N"
+    }
+  ],
+  "row_count": 10
+}

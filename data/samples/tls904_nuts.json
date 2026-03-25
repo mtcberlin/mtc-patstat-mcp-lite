@@ -1,0 +1,61 @@
+{
+  "table_name": "tls904_nuts",
+  "columns": [
+    "nuts",
+    "nuts_level",
+    "nuts_label"
+  ],
+  "rows": [
+    {
+      "nuts": "DE243",
+      "nuts_level": 3,
+      "nuts_label": "Coburg, Kreisfreie Stadt"
+    },
+    {
+      "nuts": "DEA15",
+      "nuts_level": 3,
+      "nuts_label": "Mönchengladbach, Kreisfreie Stadt"
+    },
+    {
+      "nuts": "HU2",
+      "nuts_level": 1,
+      "nuts_label": "DUNÁNTÚL"
+    },
+    {
+      "nuts": "UKG11",
+      "nuts_level": 3,
+      "nuts_label": "Herefordshire, County of"
+    },
+    {
+      "nuts": "UKZZZ",
+      "nuts_level": 3,
+      "nuts_label": "Extra-Regio NUTS 3"
+    },
+    {
+      "nuts": "UKJ32",
+      "nuts_level": 3,
+      "nuts_label": "Southampton"
+    },
+    {
+      "nuts": "FR717",
+      "nuts_level": 3,
+      "nuts_label": "Savoie"
+    },
+    {
+      "nuts": "EL6",
+      "nuts_level": 1,
+      "nuts_label": "ΚΕΝΤΡΙΚΗ ΕΛΛΑΔΑ (KENTRIKI ELLADA)"
+    },
+    {
+      "nuts": "AT334",
+      "nuts_level": 3,
+      "nuts_label": "Tiroler Oberland"
+    },
+    {
+      "nuts": "CH051",
+      "nuts_level": 3,
+      "nuts_label": "Glarus"
+    }
+  ],
+  "row_count": 10
+}

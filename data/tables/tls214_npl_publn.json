@@ -1,0 +1,122 @@
+{
+  "table_name": "tls214_npl_publn",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains non-patent literature (NPL) citations such as scientific articles, books, and technical documents referenced in patent applications.",
+  "estimated_rows": 43569746,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "npl_publn_id",
+      "type": "STRING",
+      "description": "Unique identifier for the non-patent literature publication."
+    },
+    {
+      "name": "xp_nr",
+      "type": "INT64",
+      "description": "Cross-reference number assigned by the patent office to the NPL citation."
+    },
+    {
+      "name": "npl_type",
+      "type": "STRING",
+      "description": "Type of non-patent literature (e.g., journal article, book, conference paper)."
+    },
+    {
+      "name": "npl_biblio",
+      "type": "STRING",
+      "description": "Complete bibliographic citation text as it appears in the patent document."
+    },
+    {
+      "name": "npl_author",
+      "type": "STRING",
+      "description": "Author(s) of the non-patent literature publication."
+    },
+    {
+      "name": "npl_title1",
+      "type": "STRING",
+      "description": "Primary title of the non-patent literature publication."
+    },
+    {
+      "name": "npl_title2",
+      "type": "STRING",
+      "description": "Secondary title or subtitle of the publication."
+    },
+    {
+      "name": "npl_editor",
+      "type": "STRING",
+      "description": "Editor(s) of the publication (relevant for books and proceedings)."
+    },
+    {
+      "name": "npl_volume",
+      "type": "STRING",
+      "description": "Volume number of the journal or book series."
+    },
+    {
+      "name": "npl_issue",
+      "type": "STRING",
+      "description": "Issue number of the journal or periodical."
+    },
+    {
+      "name": "npl_publn_date",
+      "type": "STRING",
+      "description": "Publication date of the non-patent literature."
+    },
+    {
+      "name": "npl_publn_end_date",
+      "type": "STRING",
+      "description": "End date for publications spanning multiple dates (e.g., conferences)."
+    },
+    {
+      "name": "npl_publisher",
+      "type": "STRING",
+      "description": "Publisher of the non-patent literature."
+    },
+    {
+      "name": "npl_page_first",
+      "type": "STRING",
+      "description": "First page number of the article or chapter."
+    },
+    {
+      "name": "npl_page_last",
+      "type": "STRING",
+      "description": "Last page number of the article or chapter."
+    },
+    {
+      "name": "npl_abstract_nr",
+      "type": "STRING",
+      "description": "Abstract number if the publication is from an abstract database."
+    },
+    {
+      "name": "npl_doi",
+      "type": "STRING",
+      "description": "Digital Object Identifier (DOI) for electronic access to the publication."
+    },
+    {
+      "name": "npl_isbn",
+      "type": "STRING",
+      "description": "International Standard Book Number for book publications."
+    },
+    {
+      "name": "npl_issn",
+      "type": "STRING",
+      "description": "International Standard Serial Number for periodical publications."
+    },
+    {
+      "name": "online_availability",
+      "type": "STRING",
+      "description": "Information about online availability and access to the publication."
+    },
+    {
+      "name": "online_classification",
+      "type": "STRING",
+      "description": "Classification or categorization of the online resource."
+    },
+    {
+      "name": "online_search_date",
+      "type": "STRING",
+      "description": "Date when the online resource was searched or accessed."
+    }
+  ]
+}

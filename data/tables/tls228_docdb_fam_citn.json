@@ -1,0 +1,22 @@
+{
+  "table_name": "tls228_docdb_fam_citn",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains citations between DOCDB patent families, aggregating citations at the family level rather than individual publications.",
+  "columns": [
+    {
+      "name": "cited_docdb_family_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the cited DOCDB patent family."
+    },
+    {
+      "name": "docdb_family_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the citing DOCDB patent family."
+    }
+  ],
+  "estimated_rows": 307465107,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

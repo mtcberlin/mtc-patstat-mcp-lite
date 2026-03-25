@@ -1,0 +1,61 @@
+{
+  "table_name": "tls202_appln_title",
+  "columns": [
+    "appln_id",
+    "appln_title_lg",
+    "appln_title"
+  ],
+  "rows": [
+    {
+      "appln_id": 485153919,
+      "appln_title_lg": "ar",
+      "appln_title": "انظمة سيلوكسان siloxan معدلة للصق واللحام"
+    },
+    {
+      "appln_id": 485150351,
+      "appln_title_lg": "ar",
+      "appln_title": "تحسينات في نظام نثر الماء في المبردات التبخيرية"
+    },
+    {
+      "appln_id": 485153967,
+      "appln_title_lg": "ar",
+      "appln_title": "تحويل الغاز باستخدام الهيدروجين hydrogen من غاز التخليق وغاز المؤخرة الناتج من التحويل بالهيدروجين hydrogen"
+    },
+    {
+      "appln_id": 485198475,
+      "appln_title_lg": "ar",
+      "appln_title": "تركيبات تغليف حاجزة للغاز محتوية على حشوات من نوع اللويحات او الصفائح الرقيقة"
+    },
+    {
+      "appln_id": 485149986,
+      "appln_title_lg": "ar",
+      "appln_title": "تركيبة العاب نارية مكونة للأيروسول AEROSOL لإطفاء الحرائق وعملية لتحضيرها"
+    },
+    {
+      "appln_id": 485153861,
+      "appln_title_lg": "ar",
+      "appln_title": "جهاز لتنقية الماء"
+    },
+    {
+      "appln_id": 485198416,
+      "appln_title_lg": "ar",
+      "appln_title": "جهاز وطريقة لإنشاء ابار فرعية branch wells من بئر رئيسي"
+    },
+    {
+      "appln_id": 485150552,
+      "appln_title_lg": "ar",
+      "appln_title": "جهاز وطريقة لاستحلاب emulsifying سائل مكيف الضغط pressurized ومتعدد المكونات multi-component"
+    },
+    {
+      "appln_id": 485198463,
+      "appln_title_lg": "ar",
+      "appln_title": "جهاز وطريقة لتحضير بولي إستر polyester مغلف بحاجز barrier أو عازل"
+    },
+    {
+      "appln_id": 485150544,
+      "appln_title_lg": "ar",
+      "appln_title": "صيغة صيدلانية من الأوميبرازول OMEPRAZOLE"
+    }
+  ],
+  "row_count": 10
+}

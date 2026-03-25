@@ -1,0 +1,36 @@
+{
+  "table_name": "tls_ipc_catchword",
+  "availability": [
+    "bigquery"
+  ],
+  "description": "Keyword-to-symbol search index derived from the WIPO IPC catchword index (IPC 2026.01). Maps 21,361 natural-language keywords to their corresponding IPC classification symbols. Use this for keyword-based discovery of relevant IPC codes (e.g., search for 'laser' to find H01S, B23K26/00, etc.).",
+  "estimated_rows": 21361,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "catchword",
+      "type": "STRING",
+      "description": "Natural-language keyword phrase from the WIPO catchword index (e.g., 'tanning LEATHER', 'FOOD processors'). The capitalized word is the primary index term."
+    },
+    {
+      "name": "symbol",
+      "type": "STRING",
+      "description": "IPC symbol in canonical 14-character zero-padded format (e.g., 'A21C0013000000'). JOIN key to tls_ipc_hierarchy.symbol."
+    },
+    {
+      "name": "symbol_short",
+      "type": "STRING",
+      "description": "Human-readable short form of the IPC symbol (e.g., 'A21C13/00')."
+    },
+    {
+      "name": "symbol_patstat",
+      "type": "STRING",
+      "description": "IPC symbol in PATSTAT spacing format (e.g., 'A21C  13/00'). JOIN key to tls209_appln_ipc.ipc_class_symbol. NULL for section/class/subclass-level entries."
+    },
+    {
+      "name": "parent_catchword",
+      "type": "STRING",
+      "description": "Primary index term under which this catchword is grouped (e.g., 'LEATHER' for 'tanning LEATHER'). Useful for finding related catchwords."
+    }
+  ]
+}

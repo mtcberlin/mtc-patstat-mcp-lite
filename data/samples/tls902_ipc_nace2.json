@@ -1,0 +1,94 @@
+{
+  "table_name": "tls902_ipc_nace2",
+  "columns": [
+    "ipc",
+    "not_with_ipc",
+    "unless_with_ipc",
+    "nace2_code",
+    "nace2_weight",
+    "nace2_descr"
+  ],
+  "rows": [
+    {
+      "ipc": "A61K  38",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 21.0,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Basic Pharmaceutical Products and Pharmaceutical Preparations"
+    },
+    {
+      "ipc": "G06V",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 26.2,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of computers and peripheral equipment"
+    },
+    {
+      "ipc": "F16S",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": null,
+      "nace2_weight": 0,
+      "nace2_descr": ""
+    },
+    {
+      "ipc": "A47D",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 31.0,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Furniture"
+    },
+    {
+      "ipc": "B60G",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 29.1,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Motor Vehicles"
+    },
+    {
+      "ipc": "G21B",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 25.3,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Steam Generators, Except Central Heating Hot Water Boilers"
+    },
+    {
+      "ipc": "D06J",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 13.0,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Textiles"
+    },
+    {
+      "ipc": "G05D",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 28.1,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of General-Purpose Machinery"
+    },
+    {
+      "ipc": "B62M",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 30.0,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Other Transport Equipment"
+    },
+    {
+      "ipc": "F23B",
+      "not_with_ipc": "",
+      "unless_with_ipc": "",
+      "nace2_code": 28.29,
+      "nace2_weight": 1,
+      "nace2_descr": "Manufacture of Other General-Purpose Machinery N.E.C."
+    }
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,72 @@
+{
+  "table_name": "tls901_techn_field_ipc",
+  "columns": [
+    "ipc_maingroup_symbol",
+    "techn_field_nr",
+    "techn_sector",
+    "techn_field"
+  ],
+  "rows": [
+    {
+      "ipc_maingroup_symbol": "B21B",
+      "techn_field_nr": 26,
+      "techn_sector": "Mechanical engineering",
+      "techn_field": "Machine tools"
+    },
+    {
+      "ipc_maingroup_symbol": "H01J",
+      "techn_field_nr": 1,
+      "techn_sector": "Electrical engineering",
+      "techn_field": "Electrical machinery, apparatus, energy"
+    },
+    {
+      "ipc_maingroup_symbol": "F16P",
+      "techn_field_nr": 31,
+      "techn_sector": "Mechanical engineering",
+      "techn_field": "Mechanical elements"
+    },
+    {
+      "ipc_maingroup_symbol": "C25B",
+      "techn_field_nr": 21,
+      "techn_sector": "Chemistry",
+      "techn_field": "Surface technology, coating"
+    },
+    {
+      "ipc_maingroup_symbol": "F01M",
+      "techn_field_nr": 27,
+      "techn_sector": "Mechanical engineering",
+      "techn_field": "Engines, pumps, turbines"
+    },
+    {
+      "ipc_maingroup_symbol": "C12L",
+      "techn_field_nr": 29,
+      "techn_sector": "Mechanical engineering",
+      "techn_field": "Other special machines"
+    },
+    {
+      "ipc_maingroup_symbol": "E04D",
+      "techn_field_nr": 35,
+      "techn_sector": "Other fields",
+      "techn_field": "Civil engineering"
+    },
+    {
+      "ipc_maingroup_symbol": "E21C",
+      "techn_field_nr": 35,
+      "techn_sector": "Other fields",
+      "techn_field": "Civil engineering"
+    },
+    {
+      "ipc_maingroup_symbol": "B64D",
+      "techn_field_nr": 32,
+      "techn_sector": "Mechanical engineering",
+      "techn_field": "Transport"
+    },
+    {
+      "ipc_maingroup_symbol": "G01N  17",
+      "techn_field_nr": 10,
+      "techn_sector": "Instruments",
+      "techn_field": "Measurement"
+    }
+  ],
+  "row_count": 10
+}

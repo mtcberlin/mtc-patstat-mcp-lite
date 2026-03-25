@@ -1,0 +1,61 @@
+{
+  "table_name": "tls204_appln_prior",
+  "columns": [
+    "appln_id",
+    "prior_appln_id",
+    "prior_appln_seq_nr"
+  ],
+  "rows": [
+    {
+      "appln_id": 522678279,
+      "prior_appln_id": 521920351,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522678906,
+      "prior_appln_id": 900162268,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522679192,
+      "prior_appln_id": 333018576,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522679581,
+      "prior_appln_id": 519561092,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522679692,
+      "prior_appln_id": 517503459,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522679801,
+      "prior_appln_id": 517842585,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522680099,
+      "prior_appln_id": 496481672,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522680348,
+      "prior_appln_id": 517171014,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522680688,
+      "prior_appln_id": 903943211,
+      "prior_appln_seq_nr": 1
+    },
+    {
+      "appln_id": 522680810,
+      "prior_appln_id": 518790729,
+      "prior_appln_seq_nr": 1
+    }
+  ],
+  "row_count": 10
+}

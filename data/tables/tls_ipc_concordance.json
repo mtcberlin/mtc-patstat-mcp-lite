@@ -1,0 +1,56 @@
+{
+  "table_name": "tls_ipc_concordance",
+  "availability": [
+    "bigquery"
+  ],
+  "description": "IPC version change mapping between 2025.01 and 2026.01. Contains 1,193 entries tracking symbol changes (created, deleted, modified) across IPC editions. Use this to map deprecated IPC codes in older patent data to their current equivalents.",
+  "estimated_rows": 1193,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "from_symbol",
+      "type": "STRING",
+      "description": "Source IPC symbol in canonical 14-character format (from the previous IPC version)."
+    },
+    {
+      "name": "from_symbol_patstat",
+      "type": "STRING",
+      "description": "Source symbol in PATSTAT spacing format. JOIN key to tls209_appln_ipc.ipc_class_symbol for finding patents using the old code."
+    },
+    {
+      "name": "to_symbol",
+      "type": "STRING",
+      "description": "Target IPC symbol in canonical 14-character format (in the new IPC version)."
+    },
+    {
+      "name": "to_symbol_patstat",
+      "type": "STRING",
+      "description": "Target symbol in PATSTAT spacing format. JOIN key to tls_ipc_hierarchy.symbol_patstat."
+    },
+    {
+      "name": "from_version",
+      "type": "STRING",
+      "description": "IPC edition date of the source symbol (e.g., '20250101')."
+    },
+    {
+      "name": "to_version",
+      "type": "STRING",
+      "description": "IPC edition date of the target symbol (e.g., '20260101')."
+    },
+    {
+      "name": "modification",
+      "type": "STRING",
+      "description": "Type of change: 'c'=created (new symbol), 'd'=deleted (symbol removed), 'm'=modified (symbol changed scope)."
+    },
+    {
+      "name": "default_reclassification",
+      "type": "STRING",
+      "description": "Whether this mapping is the default reclassification path: 'Y'=yes (use this mapping by default), 'N'=no (alternative mapping)."
+    },
+    {
+      "name": "revision_project",
+      "type": "STRING",
+      "description": "WIPO IPC revision project code responsible for this change (e.g., 'C519', 'F140')."
+    }
+  ]
+}

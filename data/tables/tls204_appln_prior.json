@@ -1,0 +1,27 @@
+{
+  "table_name": "tls204_appln_prior",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Links patent applications to their priority applications, establishing priority claims and patent family relationships.",
+  "columns": [
+    {
+      "name": "prior_appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the earlier priority application being claimed."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the subsequent patent application claiming priority."
+    },
+    {
+      "name": "prior_appln_seq_nr",
+      "type": "INT64",
+      "description": "Sequential number ordering multiple priority claims for the same application."
+    }
+  ],
+  "estimated_rows": 53194773,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

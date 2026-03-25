@@ -1,0 +1,42 @@
+{
+  "table_name": "tls803_legal_event_code",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Reference table mapping authority-specific legal event codes to standardized descriptions and categories.",
+  "estimated_rows": 4185,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "event_auth",
+      "type": "STRING",
+      "description": "Patent authority that uses this event code."
+    },
+    {
+      "name": "event_code",
+      "type": "STRING",
+      "description": "Authority-specific code for the legal event."
+    },
+    {
+      "name": "event_descr",
+      "type": "STRING",
+      "description": "Standardized English description of the legal event."
+    },
+    {
+      "name": "event_descr_orig",
+      "type": "STRING",
+      "description": "Original description of the legal event in the authority's language."
+    },
+    {
+      "name": "event_category_code",
+      "type": "STRING",
+      "description": "Standardized category code grouping similar types of legal events."
+    },
+    {
+      "name": "event_category_title",
+      "type": "STRING",
+      "description": "Title describing the standardized event category."
+    }
+  ]
+}

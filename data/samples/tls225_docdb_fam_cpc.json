@@ -1,0 +1,127 @@
+{
+  "table_name": "tls225_docdb_fam_cpc",
+  "columns": [
+    "docdb_family_id",
+    "cpc_class_symbol",
+    "cpc_gener_auth",
+    "cpc_version",
+    "cpc_position",
+    "cpc_value",
+    "cpc_action_date",
+    "cpc_status",
+    "cpc_data_source"
+  ],
+  "rows": [
+    {
+      "docdb_family_id": 44943376,
+      "cpc_class_symbol": "F16H   3/006",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2012-11-05",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44940148,
+      "cpc_class_symbol": "F25D2321/1442",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2012-11-19",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44940151,
+      "cpc_class_symbol": "F25D2321/1442",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2012-11-19",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44830127,
+      "cpc_class_symbol": "H01L2224/4903",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2012-12-05",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44799979,
+      "cpc_class_symbol": "B29C  66/3242",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44800064,
+      "cpc_class_symbol": "A61F2002/3085",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44800068,
+      "cpc_class_symbol": "B60W2520/28",
+      "cpc_gener_auth": "US",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44800212,
+      "cpc_class_symbol": "G01N2223/064",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44800238,
+      "cpc_class_symbol": "H03F2200/462",
+      "cpc_gener_auth": "EP",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    },
+    {
+      "docdb_family_id": 44800458,
+      "cpc_class_symbol": "B01D2258/0216",
+      "cpc_gener_auth": "US",
+      "cpc_version": "2013-01-01",
+      "cpc_position": "L",
+      "cpc_value": "A",
+      "cpc_action_date": "2013-01-01",
+      "cpc_status": "B",
+      "cpc_data_source": "H"
+    }
+  ],
+  "row_count": 10
+}

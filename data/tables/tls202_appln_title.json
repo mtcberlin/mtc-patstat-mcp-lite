@@ -1,0 +1,27 @@
+{
+  "table_name": "tls202_appln_title",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains patent application titles in various languages, providing the invention name as it appears in the application.",
+  "columns": [
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "appln_title_lg",
+      "type": "STRING",
+      "description": "Two-letter language code indicating the language of the title."
+    },
+    {
+      "name": "appln_title",
+      "type": "STRING",
+      "description": "Full text of the patent application title describing the invention."
+    }
+  ],
+  "estimated_rows": 119259497,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

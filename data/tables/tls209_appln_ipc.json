@@ -1,0 +1,47 @@
+{
+  "table_name": "tls209_appln_ipc",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains International Patent Classification (IPC) codes assigned to patent applications, categorizing inventions by technical field.",
+  "columns": [
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "ipc_class_level",
+      "type": "STRING",
+      "description": "Hierarchical level of the IPC code (e.g., section, class, subclass, group)."
+    },
+    {
+      "name": "ipc_version",
+      "type": "DATE",
+      "description": "Date indicating which version of the IPC classification system was used."
+    },
+    {
+      "name": "ipc_position",
+      "type": "STRING",
+      "description": "Position or rank of this IPC code relative to other codes assigned to the application."
+    },
+    {
+      "name": "ipc_class_symbol",
+      "type": "STRING",
+      "description": "IPC classification code indicating the technical field of the invention."
+    },
+    {
+      "name": "ipc_value",
+      "type": "STRING",
+      "description": "Indicator of whether this is the main IPC code (I=inventive) or additional (A=additional)."
+    },
+    {
+      "name": "ipc_gener_auth",
+      "type": "STRING",
+      "description": "Authority that generated or assigned the IPC classification code."
+    }
+  ],
+  "estimated_rows": 374559946,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

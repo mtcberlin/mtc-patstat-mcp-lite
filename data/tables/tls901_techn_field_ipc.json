@@ -1,0 +1,32 @@
+{
+  "table_name": "tls901_techn_field_ipc",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Reference table mapping IPC classification codes to broader technical fields and sectors for technology analysis.",
+  "columns": [
+    {
+      "name": "techn_field_nr",
+      "type": "INT64",
+      "description": "Numeric code identifying the technical field."
+    },
+    {
+      "name": "ipc_maingroup_symbol",
+      "type": "STRING",
+      "description": "IPC main group classification code."
+    },
+    {
+      "name": "techn_field",
+      "type": "STRING",
+      "description": "Name of the specific technical field within the sector."
+    },
+    {
+      "name": "techn_sector",
+      "type": "STRING",
+      "description": "Name of the broad technology sector (e.g., Electrical Engineering, Chemistry)."
+    }
+  ],
+  "estimated_rows": 771,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

@@ -1,0 +1,138 @@
+{
+  "table_name": "tls212_citation",
+  "columns": [
+    "pat_publn_id",
+    "citn_replenished",
+    "citn_id",
+    "citn_origin",
+    "cited_pat_publn_id",
+    "cited_appln_id",
+    "pat_citn_seq_nr",
+    "cited_npl_publn_id",
+    "npl_citn_seq_nr",
+    "citn_gener_auth"
+  ],
+  "rows": [
+    {
+      "pat_publn_id": 365206013,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "ISR",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "4BD2D1EF1FD442821B0B3579317C41DA",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "AU"
+    },
+    {
+      "pat_publn_id": 365253006,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "ISR",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "107BE97060248CB92DCD416EC499BC28",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "CN"
+    },
+    {
+      "pat_publn_id": 365253489,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "ISR",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "6A1BCC6C6C2B548024F7AF4B40725390",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "JP"
+    },
+    {
+      "pat_publn_id": 365262622,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "97C620BE59D27F54D4CAF7B3D9A2C86C",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "  "
+    },
+    {
+      "pat_publn_id": 365271773,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "6A500A68C91198CB2FA2E9E94B9EE06C",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "  "
+    },
+    {
+      "pat_publn_id": 365272209,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "E1BA97F75DB9891B6360BA12851D94F6",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "  "
+    },
+    {
+      "pat_publn_id": 365294353,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "F2B271F46D7F5F44E3E88DF080C2BA14",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "EP"
+    },
+    {
+      "pat_publn_id": 365294809,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "50DC2A08C33193F0E2129E3BFE188787",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "EP"
+    },
+    {
+      "pat_publn_id": 365309376,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "SEA",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "904B6221F65AFB85D11F00273F7C3839",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "EP"
+    },
+    {
+      "pat_publn_id": 365311567,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_origin": "APP",
+      "cited_pat_publn_id": 0,
+      "cited_appln_id": 0,
+      "pat_citn_seq_nr": 0,
+      "cited_npl_publn_id": "E251D5F91152371F92E87F5C794B6F23",
+      "npl_citn_seq_nr": 1,
+      "citn_gener_auth": "  "
+    }
+  ],
+  "row_count": 10
+}

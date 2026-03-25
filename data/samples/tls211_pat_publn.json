@@ -1,0 +1,138 @@
+{
+  "table_name": "tls211_pat_publn",
+  "columns": [
+    "pat_publn_id",
+    "publn_auth",
+    "publn_nr",
+    "publn_nr_original",
+    "publn_kind",
+    "appln_id",
+    "publn_date",
+    "publn_lg",
+    "publn_first_grant",
+    "publn_claims"
+  ],
+  "rows": [
+    {
+      "pat_publn_id": 633845865,
+      "publn_auth": "KR",
+      "publn_nr": "102828874",
+      "publn_nr_original": "102828874",
+      "publn_kind": "B1",
+      "appln_id": 634426067,
+      "publn_date": "2025-07-02",
+      "publn_lg": "ko",
+      "publn_first_grant": "Y",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876130,
+      "publn_auth": "US",
+      "publn_nr": "2025226285",
+      "publn_nr_original": "20250226285",
+      "publn_kind": "A1",
+      "appln_id": 633876129,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876152,
+      "publn_auth": "US",
+      "publn_nr": "2025226475",
+      "publn_nr_original": "20250226475",
+      "publn_kind": "A1",
+      "appln_id": 633876151,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876260,
+      "publn_auth": "US",
+      "publn_nr": "2025226506",
+      "publn_nr_original": "20250226506",
+      "publn_kind": "A1",
+      "appln_id": 633876259,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876661,
+      "publn_auth": "US",
+      "publn_nr": "2025226745",
+      "publn_nr_original": "20250226745",
+      "publn_kind": "A1",
+      "appln_id": 633876660,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876778,
+      "publn_auth": "US",
+      "publn_nr": "2025226806",
+      "publn_nr_original": "20250226806",
+      "publn_kind": "A1",
+      "appln_id": 633876777,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876892,
+      "publn_auth": "US",
+      "publn_nr": "2025226793",
+      "publn_nr_original": "20250226793",
+      "publn_kind": "A1",
+      "appln_id": 633876891,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633876957,
+      "publn_auth": "US",
+      "publn_nr": "2025226778",
+      "publn_nr_original": "20250226778",
+      "publn_kind": "A1",
+      "appln_id": 633876956,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633877377,
+      "publn_auth": "US",
+      "publn_nr": "2025227086",
+      "publn_nr_original": "20250227086",
+      "publn_kind": "A1",
+      "appln_id": 633877376,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    },
+    {
+      "pat_publn_id": 633877674,
+      "publn_auth": "US",
+      "publn_nr": "2025227420",
+      "publn_nr_original": "20250227420",
+      "publn_kind": "A1",
+      "appln_id": 633877673,
+      "publn_date": "2025-07-10",
+      "publn_lg": "en",
+      "publn_first_grant": "N",
+      "publn_claims": 0
+    }
+  ],
+  "row_count": 10
+}

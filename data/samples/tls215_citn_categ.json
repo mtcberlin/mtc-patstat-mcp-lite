@@ -1,0 +1,83 @@
+{
+  "table_name": "tls215_citn_categ",
+  "columns": [
+    "pat_publn_id",
+    "citn_replenished",
+    "citn_id",
+    "citn_categ",
+    "relevant_claim"
+  ],
+  "rows": [
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 1
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 4
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 6
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 5
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 3
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 8
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 10
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 9
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 2
+    },
+    {
+      "pat_publn_id": 495047101,
+      "citn_replenished": 0,
+      "citn_id": 1,
+      "citn_categ": "A",
+      "relevant_claim": 7
+    }
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,27 @@
+{
+  "table_name": "tls904_nuts",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Reference table containing NUTS (Nomenclature of Territorial Units for Statistics) regional codes and names for European geographic analysis.",
+  "columns": [
+    {
+      "name": "nuts_level",
+      "type": "INT64",
+      "description": "Hierarchical level of the NUTS region (0=country, 1=major region, 2=region, 3=small region)."
+    },
+    {
+      "name": "nuts",
+      "type": "STRING",
+      "description": "NUTS regional code identifier."
+    },
+    {
+      "name": "nuts_label",
+      "type": "STRING",
+      "description": "Full name or label of the NUTS region."
+    }
+  ],
+  "estimated_rows": 2056,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

@@ -1,0 +1,62 @@
+{
+  "table_name": "tls211_pat_publn",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains patent publication records representing published versions of patent applications, including publication dates and document details.",
+  "columns": [
+    {
+      "name": "publn_auth",
+      "type": "STRING",
+      "description": "Two-letter code of the authority that published the patent document."
+    },
+    {
+      "name": "publn_nr",
+      "type": "STRING",
+      "description": "Publication number in a standardized format."
+    },
+    {
+      "name": "publn_kind",
+      "type": "STRING",
+      "description": "Kind code indicating the type of publication (e.g., A1=first publication, B1=granted patent)."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key linking to the underlying patent application."
+    },
+    {
+      "name": "publn_date",
+      "type": "DATE",
+      "description": "Date when the patent document was officially published."
+    },
+    {
+      "name": "publn_first_grant",
+      "type": "STRING",
+      "description": "Flag indicating if this publication represents the first grant of the patent."
+    },
+    {
+      "name": "publn_claims",
+      "type": "INT64",
+      "description": "Number of claims in the published patent document."
+    },
+    {
+      "name": "pat_publn_id",
+      "type": "INT64",
+      "description": "Unique identifier for each patent publication document."
+    },
+    {
+      "name": "publn_nr_original",
+      "type": "STRING",
+      "description": "Original publication number as assigned by the publishing authority."
+    },
+    {
+      "name": "publn_lg",
+      "type": "STRING",
+      "description": "Two-letter language code of the publication."
+    }
+  ],
+  "estimated_rows": 167837244,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

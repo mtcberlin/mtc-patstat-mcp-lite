@@ -1,0 +1,105 @@
+{
+  "table_name": "tls209_appln_ipc",
+  "columns": [
+    "appln_id",
+    "ipc_class_symbol",
+    "ipc_class_level",
+    "ipc_version",
+    "ipc_value",
+    "ipc_position",
+    "ipc_gener_auth"
+  ],
+  "rows": [
+    {
+      "appln_id": 29953600,
+      "ipc_class_symbol": "A01D  57/24",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29979622,
+      "ipc_class_symbol": "A01D  69/00",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29970295,
+      "ipc_class_symbol": "A01G  17/02",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29961396,
+      "ipc_class_symbol": "A01G  31/04",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29956113,
+      "ipc_class_symbol": "A01M   1/12",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29961309,
+      "ipc_class_symbol": "A01M  13/00",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29961691,
+      "ipc_class_symbol": "A01N  47/06",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29964073,
+      "ipc_class_symbol": "A01N  47/22",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29964125,
+      "ipc_class_symbol": "A01N  53/10",
+      "ipc_class_level": "A",
+      "ipc_version": "2006-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    },
+    {
+      "appln_id": 29980742,
+      "ipc_class_symbol": "A23L  29/00",
+      "ipc_class_level": "A",
+      "ipc_version": "2016-01-01",
+      "ipc_value": "I",
+      "ipc_position": " ",
+      "ipc_gener_auth": "EP"
+    }
+  ],
+  "row_count": 10
+}

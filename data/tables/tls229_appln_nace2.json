@@ -1,0 +1,27 @@
+{
+  "table_name": "tls229_appln_nace2",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Links patent applications to NACE Rev. 2 industry classification codes, indicating relevant economic sectors and industries.",
+  "estimated_rows": 166322438,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "nace2_code",
+      "type": "FLOAT64",
+      "description": "NACE Rev. 2 industry classification code assigned to the application."
+    },
+    {
+      "name": "weight",
+      "type": "FLOAT64",
+      "description": "Weight indicating the relative importance or relevance of this NACE code to the application."
+    }
+  ]
+}

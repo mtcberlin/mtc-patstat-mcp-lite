@@ -1,0 +1,32 @@
+{
+  "table_name": "tls227_pers_publn",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Links persons (applicants and inventors) to patent publications, specifying their sequence numbers and roles for each publication.",
+  "columns": [
+    {
+      "name": "pat_publn_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent publication document."
+    },
+    {
+      "name": "applt_seq_nr",
+      "type": "INT64",
+      "description": "Sequence number indicating the person's position in the list of applicants (0 if not an applicant)."
+    },
+    {
+      "name": "person_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the person involved in the patent publication."
+    },
+    {
+      "name": "invt_seq_nr",
+      "type": "INT64",
+      "description": "Sequence number indicating the person's position in the list of inventors (0 if not an inventor)."
+    }
+  ],
+  "estimated_rows": 533935876,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

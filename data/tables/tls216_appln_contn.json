@@ -1,0 +1,27 @@
+{
+  "table_name": "tls216_appln_contn",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Tracks continuation relationships between patent applications, including divisional, continuation, and continuation-in-part applications.",
+  "columns": [
+    {
+      "name": "parent_appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the parent patent application."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the child/continuing patent application."
+    },
+    {
+      "name": "contn_type",
+      "type": "STRING",
+      "description": "Type of continuation relationship (e.g., divisional, continuation, continuation-in-part)."
+    }
+  ],
+  "estimated_rows": 5819586,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

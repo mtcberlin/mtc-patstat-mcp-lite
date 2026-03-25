@@ -1,0 +1,13 @@
+{
+  "_comment": "MCP config template -- copy to .mcp.json (gitignored)",
+  "_options": {
+    "stdio (recommended)": "Claude Code manages the server process automatically",
+    "sse": "Requires a running server (patstat-mcp-lite --sse --port 8080)",
+    "http": "Requires a running server (patstat-mcp-lite --http --port 8080)"
+  },
+  "mcpServers": {
+    "patstat-mcp-lite": {
+      "command": ".venv/bin/patstat-mcp-lite"
+    }
+  }
+}

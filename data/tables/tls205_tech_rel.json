@@ -1,0 +1,22 @@
+{
+  "table_name": "tls205_tech_rel",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Links patent applications to technologically related applications, identifying technical relationships beyond simple citations.",
+  "columns": [
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the source patent application."
+    },
+    {
+      "name": "tech_rel_appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the technologically related patent application."
+    }
+  ],
+  "estimated_rows": 4160592,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

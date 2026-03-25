@@ -1,0 +1,91 @@
+{
+  "table_name": "tls_ipc_hierarchy",
+  "availability": [
+    "bigquery"
+  ],
+  "description": "Complete IPC (International Patent Classification) hierarchy table (IPC 2026.01) with 80,145 entries spanning all levels from sections (A-H) down to the deepest subgroups. Provides human-readable titles, parent-child relationships, breadcrumb title chains, definition text, and version history for each classification symbol. Use this to look up IPC codes, browse the classification tree, or resolve symbols to titles. JOIN to tls209_appln_ipc via symbol_patstat = ipc_class_symbol.",
+  "estimated_rows": 80145,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "symbol",
+      "type": "STRING",
+      "description": "Full IPC symbol in canonical 14-character format (e.g., 'A01B0007000000'). Primary key."
+    },
+    {
+      "name": "symbol_short",
+      "type": "STRING",
+      "description": "Human-readable short form of the IPC symbol (e.g., 'A01B7/00')."
+    },
+    {
+      "name": "symbol_patstat",
+      "type": "STRING",
+      "description": "IPC symbol in PATSTAT spacing format as used in tls209_appln_ipc.ipc_class_symbol (e.g., 'A01B   7/00'). NULL for sections."
+    },
+    {
+      "name": "kind",
+      "type": "STRING",
+      "description": "Classification level kind: 's'=section, 'c'=class, 'u'=subclass, 'm'=main group, '1'-'9'=subgroup depth levels."
+    },
+    {
+      "name": "level",
+      "type": "INT64",
+      "description": "Numeric hierarchy level: 2=section, 3=class, 4=subclass, 5=main group, 6-14=subgroup depths."
+    },
+    {
+      "name": "parent",
+      "type": "STRING",
+      "description": "Symbol of the parent node in the hierarchy (canonical format). 'IPC' for top-level sections."
+    },
+    {
+      "name": "parent_short",
+      "type": "STRING",
+      "description": "Human-readable short form of the parent symbol."
+    },
+    {
+      "name": "title_en",
+      "type": "STRING",
+      "description": "English title of this classification entry (short form, last hierarchy level only)."
+    },
+    {
+      "name": "title_full",
+      "type": "STRING",
+      "description": "Full English title including parent context joined by ' > ' separators."
+    },
+    {
+      "name": "ipc_version",
+      "type": "STRING",
+      "description": "IPC edition identifier as YYYYMMDD string (e.g., '20260101' for IPC 2026.01)."
+    },
+    {
+      "name": "latest_version_date",
+      "type": "STRING",
+      "description": "Date when this symbol was last modified in the IPC scheme, as YYYYMMDD string. Sourced from WIPO valid symbols XML. Available for 79,557 of 80,145 symbols."
+    },
+    {
+      "name": "introduced_date",
+      "type": "STRING",
+      "description": "Date when this symbol was first introduced in the IPC, as YYYYMMDD string. Sourced from WIPO ever-used inventory. NULL for ~140 symbols new in 2026.01."
+    },
+    {
+      "name": "additional_content",
+      "type": "STRING",
+      "description": "Plain text from WIPO IPC definitions XML containing glossary terms, scope notes, and classification references. Available for 2,148 symbols (mainly at class/subclass level). Searchable via LIKE."
+    },
+    {
+      "name": "section_title",
+      "type": "STRING",
+      "description": "Denormalized title of the level-2 section ancestor (e.g., 'HUMAN NECESSITIES'). Enables filtering/grouping by section without hierarchy traversal."
+    },
+    {
+      "name": "class_title",
+      "type": "STRING",
+      "description": "Denormalized title of the level-3 class ancestor (e.g., 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY'). NULL for section-level entries."
+    },
+    {
+      "name": "subclass_title",
+      "type": "STRING",
+      "description": "Denormalized title of the level-4 subclass ancestor (e.g., 'SOIL WORKING IN AGRICULTURE OR FORESTRY'). NULL for section/class-level entries."
+    }
+  ]
+}

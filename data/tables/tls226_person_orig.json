@@ -1,0 +1,122 @@
+{
+  "table_name": "tls226_person_orig",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Stores original person data (applicants and inventors) as submitted to patent offices, including unharmonized names and addresses before standardization processing.",
+  "columns": [
+    {
+      "name": "person_id",
+      "type": "INT64",
+      "description": "Foreign key linking to the harmonized person record in the tls206_person table."
+    },
+    {
+      "name": "source_version",
+      "type": "STRING",
+      "description": "Version identifier of the data source from which the person information was extracted."
+    },
+    {
+      "name": "person_name_orig_lg",
+      "type": "STRING",
+      "description": "Language code indicating the original language of the person's name."
+    },
+    {
+      "name": "last_name",
+      "type": "STRING",
+      "description": "Family name or surname extracted from the original person record."
+    },
+    {
+      "name": "first_name",
+      "type": "STRING",
+      "description": "Given name or first name extracted from the original person record."
+    },
+    {
+      "name": "address_freeform",
+      "type": "STRING",
+      "description": "Complete unstructured address as originally provided, without parsing into separate address components."
+    },
+    {
+      "name": "address_2",
+      "type": "STRING",
+      "description": "Second line of parsed address, typically containing additional location details."
+    },
+    {
+      "name": "address_3",
+      "type": "STRING",
+      "description": "Third line of parsed address, containing supplementary address information."
+    },
+    {
+      "name": "address_5",
+      "type": "STRING",
+      "description": "Fifth line of parsed address, containing further address information."
+    },
+    {
+      "name": "street",
+      "type": "STRING",
+      "description": "Street name and number extracted from the address."
+    },
+    {
+      "name": "zip_code",
+      "type": "STRING",
+      "description": "Postal code or ZIP code extracted from the address."
+    },
+    {
+      "name": "state",
+      "type": "STRING",
+      "description": "State, province, or region code extracted from the address."
+    },
+    {
+      "name": "residence_ctry_code",
+      "type": "STRING",
+      "description": "Two-letter country code representing the person's country of residence."
+    },
+    {
+      "name": "role",
+      "type": "STRING",
+      "description": "Role of the person in relation to the patent (e.g., applicant, inventor, representative)."
+    },
+    {
+      "name": "person_orig_id",
+      "type": "INT64",
+      "description": "Unique identifier for the original person record as submitted to the patent office."
+    },
+    {
+      "name": "source",
+      "type": "STRING",
+      "description": "Patent office or authority that provided the original person data."
+    },
+    {
+      "name": "name_freeform",
+      "type": "STRING",
+      "description": "Unstructured full name as originally provided, without parsing into separate name components."
+    },
+    {
+      "name": "middle_name",
+      "type": "STRING",
+      "description": "Middle name or initial extracted from the original person record."
+    },
+    {
+      "name": "address_1",
+      "type": "STRING",
+      "description": "First line of parsed address, typically containing street address or building information."
+    },
+    {
+      "name": "address_4",
+      "type": "STRING",
+      "description": "Fourth line of parsed address, containing additional address details."
+    },
+    {
+      "name": "city",
+      "type": "STRING",
+      "description": "City or municipality name extracted from the address."
+    },
+    {
+      "name": "person_ctry_code",
+      "type": "STRING",
+      "description": "Two-letter country code representing the person's country as stated in the patent document."
+    }
+  ],
+  "estimated_rows": 120640365,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

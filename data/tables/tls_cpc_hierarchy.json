@@ -1,0 +1,71 @@
+{
+  "table_name": "tls_cpc_hierarchy",
+  "availability": [
+    "bigquery"
+  ],
+  "description": "Complete CPC (Cooperative Patent Classification) hierarchy table with 254,249 entries spanning all levels from sections (A-H, Y) down to the deepest subgroups. Provides human-readable titles, parent-child relationships, and classification metadata for each CPC symbol. Use this to look up CPC codes, browse the classification tree, or resolve symbols to titles. The CPC extends the IPC with finer granularity and additional sections like Y (tagging of new technologies).",
+  "columns": [
+    {
+      "name": "symbol",
+      "type": "STRING",
+      "description": "Full CPC symbol in canonical 14-character format (e.g., 'A01B0007000000'). Primary key. Shorter symbols for sections, classes and subclasses (e.g., 'A', 'A01', 'A01B')."
+    },
+    {
+      "name": "symbol_short",
+      "type": "STRING",
+      "description": "Human-readable short form of the CPC symbol (e.g., 'A01B7/00')."
+    },
+    {
+      "name": "symbol_patstat",
+      "type": "STRING",
+      "description": "CPC symbol in PATSTAT spacing format as used in tls224_appln_cpc.cpc_class_symbol (e.g., 'A01B   7/00'). NULL for sections, classes and subclasses."
+    },
+    {
+      "name": "kind",
+      "type": "STRING",
+      "description": "Classification level kind: 's'=section, 'c'=class, 'u'=subclass, 'm'=main group, '1'-'9'=subgroup depth levels."
+    },
+    {
+      "name": "level",
+      "type": "INT64",
+      "description": "Numeric hierarchy level: 2=section, 4=class, 5=subclass, 7=main group, 8+=subgroup depths."
+    },
+    {
+      "name": "parent",
+      "type": "STRING",
+      "description": "Symbol of the parent node in the hierarchy (canonical format). 'CPC' for top-level sections."
+    },
+    {
+      "name": "parent_short",
+      "type": "STRING",
+      "description": "Human-readable short form of the parent symbol."
+    },
+    {
+      "name": "title_en",
+      "type": "STRING",
+      "description": "English title of this classification entry (short form, last hierarchy level only)."
+    },
+    {
+      "name": "title_full",
+      "type": "STRING",
+      "description": "Full English title including parent context joined by ' > ' separators."
+    },
+    {
+      "name": "not_allocatable",
+      "type": "BOOL",
+      "description": "If true, patents cannot be directly classified under this symbol (e.g., sections, classes, subclasses are structural nodes only)."
+    },
+    {
+      "name": "additional_only",
+      "type": "BOOL",
+      "description": "If true, this symbol can only be used as an additional (secondary) classification, not as the main classification. Typical for Y sections (cross-sectional tagging)."
+    },
+    {
+      "name": "status",
+      "type": "STRING",
+      "description": "Publication status of the classification entry. Currently all entries are 'published'."
+    }
+  ],
+  "estimated_rows": 254249,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

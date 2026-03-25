@@ -1,0 +1,27 @@
+{
+  "table_name": "tls203_appln_abstr",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains patent application abstracts in various languages, providing technical summaries of the inventions.",
+  "columns": [
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "appln_abstract_lg",
+      "type": "STRING",
+      "description": "Two-letter language code indicating the language of the abstract."
+    },
+    {
+      "name": "appln_abstract",
+      "type": "STRING",
+      "description": "Full text of the patent abstract describing the invention's technical summary."
+    }
+  ],
+  "estimated_rows": 96536721,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

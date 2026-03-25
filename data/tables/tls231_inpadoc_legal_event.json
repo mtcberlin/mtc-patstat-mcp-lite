@@ -1,0 +1,202 @@
+{
+  "table_name": "tls231_inpadoc_legal_event",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains legal status events throughout a patent's lifecycle, including grants, lapses, transfers, and fee payments from INPADOC legal status data.",
+  "estimated_rows": 498252938,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "event_id",
+      "type": "INT64",
+      "description": "Unique identifier for the legal event record."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    },
+    {
+      "name": "event_seq_nr",
+      "type": "INT64",
+      "description": "Sequential number ordering events for the same application."
+    },
+    {
+      "name": "event_type",
+      "type": "STRING",
+      "description": "Type of legal event (e.g., grant, lapse, transfer, fee payment)."
+    },
+    {
+      "name": "event_auth",
+      "type": "STRING",
+      "description": "Patent authority reporting the legal event."
+    },
+    {
+      "name": "event_code",
+      "type": "STRING",
+      "description": "Authority-specific code identifying the type of legal event."
+    },
+    {
+      "name": "event_filing_date",
+      "type": "DATE",
+      "description": "Date when the event-related document was filed."
+    },
+    {
+      "name": "event_publn_date",
+      "type": "DATE",
+      "description": "Date when the legal event was published."
+    },
+    {
+      "name": "event_effective_date",
+      "type": "DATE",
+      "description": "Date when the legal event became effective."
+    },
+    {
+      "name": "event_text",
+      "type": "STRING",
+      "description": "Descriptive text providing details about the legal event."
+    },
+    {
+      "name": "ref_doc_auth",
+      "type": "STRING",
+      "description": "Authority of the referenced document related to the event."
+    },
+    {
+      "name": "ref_doc_nr",
+      "type": "STRING",
+      "description": "Number of the referenced document related to the event."
+    },
+    {
+      "name": "ref_doc_kind",
+      "type": "STRING",
+      "description": "Kind code of the referenced document."
+    },
+    {
+      "name": "ref_doc_date",
+      "type": "DATE",
+      "description": "Date of the referenced document."
+    },
+    {
+      "name": "ref_doc_text",
+      "type": "STRING",
+      "description": "Additional text information about the referenced document."
+    },
+    {
+      "name": "party_type",
+      "type": "STRING",
+      "description": "Type of party involved in the event (e.g., applicant, owner, licensee)."
+    },
+    {
+      "name": "party_seq_nr",
+      "type": "INT64",
+      "description": "Sequential number for multiple parties involved in the same event."
+    },
+    {
+      "name": "party_new",
+      "type": "STRING",
+      "description": "Name of the new party after an ownership or rights transfer."
+    },
+    {
+      "name": "party_old",
+      "type": "STRING",
+      "description": "Name of the previous party before an ownership or rights transfer."
+    },
+    {
+      "name": "spc_nr",
+      "type": "STRING",
+      "description": "Supplementary Protection Certificate (SPC) number for pharmaceutical/plant protection patents."
+    },
+    {
+      "name": "spc_filing_date",
+      "type": "DATE",
+      "description": "Filing date of the Supplementary Protection Certificate."
+    },
+    {
+      "name": "spc_patent_expiry_date",
+      "type": "DATE",
+      "description": "Original expiry date of the basic patent before SPC extension."
+    },
+    {
+      "name": "spc_extension_date",
+      "type": "DATE",
+      "description": "Extended expiry date after granting the Supplementary Protection Certificate."
+    },
+    {
+      "name": "spc_text",
+      "type": "STRING",
+      "description": "Additional text information about the Supplementary Protection Certificate."
+    },
+    {
+      "name": "designated_states",
+      "type": "STRING",
+      "description": "List of countries/states designated for patent protection (relevant for PCT/EP applications)."
+    },
+    {
+      "name": "extension_states",
+      "type": "STRING",
+      "description": "List of extension states for European patent applications."
+    },
+    {
+      "name": "fee_country",
+      "type": "STRING",
+      "description": "Country for which the maintenance fee was paid."
+    },
+    {
+      "name": "fee_payment_date",
+      "type": "DATE",
+      "description": "Date when the maintenance or renewal fee was paid."
+    },
+    {
+      "name": "fee_renewal_year",
+      "type": "INT64",
+      "description": "Year of patent protection for which the renewal fee applies."
+    },
+    {
+      "name": "fee_text",
+      "type": "STRING",
+      "description": "Additional text information about the fee payment."
+    },
+    {
+      "name": "lapse_country",
+      "type": "STRING",
+      "description": "Country where the patent rights lapsed."
+    },
+    {
+      "name": "lapse_date",
+      "type": "DATE",
+      "description": "Date when the patent rights lapsed or expired."
+    },
+    {
+      "name": "lapse_text",
+      "type": "STRING",
+      "description": "Additional text information about the lapse event."
+    },
+    {
+      "name": "reinstate_country",
+      "type": "STRING",
+      "description": "Country where the patent rights were reinstated."
+    },
+    {
+      "name": "reinstate_date",
+      "type": "DATE",
+      "description": "Date when the patent rights were reinstated after lapse."
+    },
+    {
+      "name": "reinstate_text",
+      "type": "STRING",
+      "description": "Additional text information about the reinstatement event."
+    },
+    {
+      "name": "class_scheme",
+      "type": "STRING",
+      "description": "Classification scheme referenced in the legal event (e.g., IPC, CPC)."
+    },
+    {
+      "name": "class_symbol",
+      "type": "STRING",
+      "description": "Classification code symbol referenced in the legal event."
+    }
+  ]
+}

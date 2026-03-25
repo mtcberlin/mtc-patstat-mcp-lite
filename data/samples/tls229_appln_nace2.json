@@ -1,0 +1,61 @@
+{
+  "table_name": "tls229_appln_nace2",
+  "columns": [
+    "appln_id",
+    "nace2_code",
+    "weight"
+  ],
+  "rows": [
+    {
+      "appln_id": 492150874,
+      "nace2_code": 10.0,
+      "weight": 0.01923076994717121
+    },
+    {
+      "appln_id": 492082509,
+      "nace2_code": 27.12,
+      "weight": 0.02083333395421505
+    },
+    {
+      "appln_id": 492082509,
+      "nace2_code": 27.9,
+      "weight": 0.02083333395421505
+    },
+    {
+      "appln_id": 492633848,
+      "nace2_code": 27.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492631912,
+      "nace2_code": 27.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492633861,
+      "nace2_code": 27.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492630904,
+      "nace2_code": 27.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492625218,
+      "nace2_code": 27.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492631912,
+      "nace2_code": 28.1,
+      "weight": 0.024390242993831635
+    },
+    {
+      "appln_id": 492633848,
+      "nace2_code": 28.1,
+      "weight": 0.024390242993831635
+    }
+  ],
+  "row_count": 10
+}

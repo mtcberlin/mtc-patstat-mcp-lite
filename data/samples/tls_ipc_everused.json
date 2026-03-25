@@ -1,0 +1,83 @@
+{
+  "table_name": "tls_ipc_everused",
+  "columns": [
+    "symbol",
+    "symbol_patstat",
+    "introduced_date",
+    "deprecated_date",
+    "is_active"
+  ],
+  "rows": [
+    {
+      "symbol": "B29K0033180000",
+      "symbol_patstat": "B29K  33/18",
+      "introduced_date": "19850101",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "B22F0012410000",
+      "symbol_patstat": "B22F  12/41",
+      "introduced_date": "20210101",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "B01F0025200000",
+      "symbol_patstat": "B01F  25/2",
+      "introduced_date": "20220101",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "B65G0035020000",
+      "symbol_patstat": "B65G  35/02",
+      "introduced_date": "19680901",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "B29C0048290000",
+      "symbol_patstat": "B29C  48/29",
+      "introduced_date": "20190101",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "C07C0029300000",
+      "symbol_patstat": "C07C  29/3",
+      "introduced_date": "19680901",
+      "deprecated_date": "19791231",
+      "is_active": false
+    },
+    {
+      "symbol": "G05F0001560000",
+      "symbol_patstat": "G05F   1/56",
+      "introduced_date": "19680901",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "A01N0063140000",
+      "symbol_patstat": "A01N  63/14",
+      "introduced_date": "20200101",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "C09K0015040000",
+      "symbol_patstat": "C09K  15/04",
+      "introduced_date": "19740701",
+      "deprecated_date": null,
+      "is_active": true
+    },
+    {
+      "symbol": "G01N0033490000",
+      "symbol_patstat": "G01N  33/49",
+      "introduced_date": "19850101",
+      "deprecated_date": null,
+      "is_active": true
+    }
+  ],
+  "row_count": 10
+}

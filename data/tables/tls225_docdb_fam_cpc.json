@@ -1,0 +1,57 @@
+{
+  "table_name": "tls225_docdb_fam_cpc",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains CPC classification codes assigned at the DOCDB patent family level, with versioning and status information.",
+  "columns": [
+    {
+      "name": "cpc_gener_auth",
+      "type": "STRING",
+      "description": "Authority that generated or assigned the CPC classification."
+    },
+    {
+      "name": "cpc_version",
+      "type": "DATE",
+      "description": "Date indicating the version of the CPC scheme used."
+    },
+    {
+      "name": "cpc_position",
+      "type": "STRING",
+      "description": "Position indicating whether this is the first or additional CPC code."
+    },
+    {
+      "name": "cpc_action_date",
+      "type": "DATE",
+      "description": "Date when the CPC classification was added or modified."
+    },
+    {
+      "name": "cpc_status",
+      "type": "STRING",
+      "description": "Status of the CPC code (e.g., active, deleted, transferred)."
+    },
+    {
+      "name": "cpc_data_source",
+      "type": "STRING",
+      "description": "Source of the CPC classification data."
+    },
+    {
+      "name": "docdb_family_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the DOCDB patent family."
+    },
+    {
+      "name": "cpc_class_symbol",
+      "type": "STRING",
+      "description": "CPC classification code assigned to the patent family."
+    },
+    {
+      "name": "cpc_value",
+      "type": "STRING",
+      "description": "Value indicating whether this is an inventive (I) or additional (A) classification."
+    }
+  ],
+  "estimated_rows": 224464483,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

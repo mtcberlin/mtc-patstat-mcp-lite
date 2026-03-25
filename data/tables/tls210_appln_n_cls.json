@@ -1,0 +1,22 @@
+{
+  "table_name": "tls210_appln_n_cls",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Contains national classification codes assigned to patent applications by various patent offices using country-specific classification systems.",
+  "columns": [
+    {
+      "name": "nat_class_symbol",
+      "type": "STRING",
+      "description": "National classification code assigned by the patent office's classification system."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Foreign key referencing the patent application."
+    }
+  ],
+  "estimated_rows": 26217769,
+  "last_synced": "2026-02-08T17:07:41Z"
+}

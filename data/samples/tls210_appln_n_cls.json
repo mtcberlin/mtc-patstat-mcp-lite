@@ -1,0 +1,50 @@
+{
+  "table_name": "tls210_appln_n_cls",
+  "columns": [
+    "appln_id",
+    "nat_class_symbol"
+  ],
+  "rows": [
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1A A2A6 AZ5"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1A A1C2 AZ5"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1W W230 WCX"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1W W420 WCX"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1A A1B8B AZ5"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1W WCX WCX"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1A A3X8 AZ5"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1W W100 WCX"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1W W508 WCX"
+    },
+    {
+      "appln_id": 21622879,
+      "nat_class_symbol": "F1A A4H AZ5"
+    }
+  ],
+  "row_count": 10
+}

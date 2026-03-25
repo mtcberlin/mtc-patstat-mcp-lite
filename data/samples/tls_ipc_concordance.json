@@ -1,0 +1,127 @@
+{
+  "table_name": "tls_ipc_concordance",
+  "columns": [
+    "from_symbol",
+    "from_symbol_patstat",
+    "to_symbol",
+    "to_symbol_patstat",
+    "from_version",
+    "to_version",
+    "modification",
+    "default_reclassification",
+    "revision_project"
+  ],
+  "rows": [
+    {
+      "from_symbol": "H01L0025100000",
+      "from_symbol_patstat": "H01L  25/1",
+      "to_symbol": "H10H0029200000",
+      "to_symbol_patstat": "H10H  29/2",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C519"
+    },
+    {
+      "from_symbol": "H01L0025075000",
+      "from_symbol_patstat": "H01L  25/075",
+      "to_symbol": "H10W0090260000",
+      "to_symbol_patstat": "H10W  90/26",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C519"
+    },
+    {
+      "from_symbol": "H02J0003000000",
+      "from_symbol_patstat": "H02J   3/00",
+      "to_symbol": "H02J0003180000",
+      "to_symbol_patstat": "H02J   3/18",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "c",
+      "default_reclassification": "N",
+      "revision_project": "F140"
+    },
+    {
+      "from_symbol": "H01L0023485000",
+      "from_symbol_patstat": "H01L  23/485",
+      "to_symbol": "H10W0070656000",
+      "to_symbol_patstat": "H10W  70/656",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C518"
+    },
+    {
+      "from_symbol": "H01L0025040000",
+      "from_symbol_patstat": "H01L  25/04",
+      "to_symbol": "H10K0019000000",
+      "to_symbol_patstat": "H10K  19/00",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C519"
+    },
+    {
+      "from_symbol": "H02J0003180000",
+      "from_symbol_patstat": "H02J   3/18",
+      "to_symbol": "H02J0003188500",
+      "to_symbol_patstat": "H02J   3/1885",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "c",
+      "default_reclassification": "N",
+      "revision_project": "F140"
+    },
+    {
+      "from_symbol": "H01L0025160000",
+      "from_symbol_patstat": "H01L  25/16",
+      "to_symbol": "H10K0059950000",
+      "to_symbol_patstat": "H10K  59/95",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C519"
+    },
+    {
+      "from_symbol": "H01L0021321000",
+      "from_symbol_patstat": "H01L  21/321",
+      "to_symbol": "H10P0095600000",
+      "to_symbol_patstat": "H10P  95/6",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "N",
+      "revision_project": "C517"
+    },
+    {
+      "from_symbol": "C21D0008020000",
+      "from_symbol_patstat": "C21D   8/02",
+      "to_symbol": "C21D0008027800",
+      "to_symbol_patstat": "C21D   8/0278",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "c",
+      "default_reclassification": "N",
+      "revision_project": "C531"
+    },
+    {
+      "from_symbol": "H01L0021603000",
+      "from_symbol_patstat": "H01L  21/603",
+      "to_symbol": "H10W0072500000",
+      "to_symbol_patstat": "H10W  72/5",
+      "from_version": "20250101",
+      "to_version": "20260101",
+      "modification": "d",
+      "default_reclassification": "Y",
+      "revision_project": "C517"
+    }
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,92 @@
+{
+  "table_name": "tls206_person",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Harmonized person data table containing standardized and consolidated information about applicants and inventors across all patent applications.",
+  "estimated_rows": 97853865,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "person_id",
+      "type": "INT64",
+      "description": "Unique identifier for each harmonized person record."
+    },
+    {
+      "name": "person_name",
+      "type": "STRING",
+      "description": "Standardized full name of the person or organization after harmonization."
+    },
+    {
+      "name": "person_name_orig_lg",
+      "type": "STRING",
+      "description": "Original name in the native language before standardization."
+    },
+    {
+      "name": "person_address",
+      "type": "STRING",
+      "description": "Standardized full address of the person or organization."
+    },
+    {
+      "name": "person_ctry_code",
+      "type": "STRING",
+      "description": "Two-letter country code of the person's location."
+    },
+    {
+      "name": "nuts",
+      "type": "STRING",
+      "description": "NUTS regional code for geographic location within Europe."
+    },
+    {
+      "name": "nuts_level",
+      "type": "INT64",
+      "description": "Level of NUTS classification (0=country, 1=major region, 2=region, 3=small region)."
+    },
+    {
+      "name": "doc_std_name_id",
+      "type": "INT64",
+      "description": "Identifier linking to the standardized name in the name harmonization system."
+    },
+    {
+      "name": "doc_std_name",
+      "type": "STRING",
+      "description": "Standardized name using document-level harmonization rules."
+    },
+    {
+      "name": "psn_id",
+      "type": "INT64",
+      "description": "Person sector identifier grouping entities by economic sector."
+    },
+    {
+      "name": "psn_name",
+      "type": "STRING",
+      "description": "Name associated with the person sector classification."
+    },
+    {
+      "name": "psn_level",
+      "type": "INT64",
+      "description": "Hierarchical level in the person sector classification system."
+    },
+    {
+      "name": "psn_sector",
+      "type": "STRING",
+      "description": "Economic sector classification (e.g., COMPANY, UNIVERSITY, GOVERNMENT, INDIVIDUAL)."
+    },
+    {
+      "name": "han_id",
+      "type": "INT64",
+      "description": "Harmonized entity identifier grouping records belonging to the same real-world entity."
+    },
+    {
+      "name": "han_name",
+      "type": "STRING",
+      "description": "Harmonized name representing the consolidated entity across all variations."
+    },
+    {
+      "name": "han_harmonized",
+      "type": "INT64",
+      "description": "Flag indicating the level or quality of harmonization applied to the record."
+    }
+  ]
+}

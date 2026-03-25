@@ -1,0 +1,61 @@
+{
+  "table_name": "tls216_appln_contn",
+  "columns": [
+    "appln_id",
+    "parent_appln_id",
+    "contn_type"
+  ],
+  "rows": [
+    {
+      "appln_id": 574748978,
+      "parent_appln_id": 566765865,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574749008,
+      "parent_appln_id": 558527525,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574749040,
+      "parent_appln_id": 568624863,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574749050,
+      "parent_appln_id": 523189071,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574749057,
+      "parent_appln_id": 543024327,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574771197,
+      "parent_appln_id": 909207377,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574771203,
+      "parent_appln_id": 489991474,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574771205,
+      "parent_appln_id": 501700821,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574771207,
+      "parent_appln_id": 550444282,
+      "contn_type": "   "
+    },
+    {
+      "appln_id": 574771209,
+      "parent_appln_id": 543849368,
+      "contn_type": "   "
+    }
+  ],
+  "row_count": 10
+}

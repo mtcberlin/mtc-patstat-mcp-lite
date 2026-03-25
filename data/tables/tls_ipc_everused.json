@@ -1,0 +1,36 @@
+{
+  "table_name": "tls_ipc_everused",
+  "availability": [
+    "bigquery"
+  ],
+  "description": "All IPC symbols ever used in patent classification, including deprecated ones no longer in the current hierarchy. Contains 92,856 entries with introduction and deprecation dates. Use this to resolve old IPC codes found in tls209_appln_ipc that are no longer in tls_ipc_hierarchy (covers 87.1% of distinct symbols in tls209).",
+  "estimated_rows": 92856,
+  "last_synced": "2026-02-08T17:07:41Z",
+  "columns": [
+    {
+      "name": "symbol",
+      "type": "STRING",
+      "description": "IPC symbol in canonical 14-character zero-padded format (e.g., 'B29K0033180000'). JOIN key to tls_ipc_hierarchy.symbol (if still active)."
+    },
+    {
+      "name": "symbol_patstat",
+      "type": "STRING",
+      "description": "IPC symbol in PATSTAT spacing format (e.g., 'B29K  33/18'). JOIN key to tls209_appln_ipc.ipc_class_symbol."
+    },
+    {
+      "name": "introduced_date",
+      "type": "STRING",
+      "description": "Date when this IPC symbol was first introduced, as YYYYMMDD string (e.g., '19850101'). Earliest dates go back to IPC 1st edition (1968)."
+    },
+    {
+      "name": "deprecated_date",
+      "type": "STRING",
+      "description": "Date when this symbol was deprecated/removed, as YYYYMMDD string. NULL if the symbol is still active."
+    },
+    {
+      "name": "is_active",
+      "type": "BOOL",
+      "description": "Whether this symbol is currently active in IPC 2026.01 (true) or has been deprecated (false)."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "table_name": "tls803_legal_event_code",
+  "columns": [
+    "event_auth",
+    "event_code",
+    "event_descr",
+    "event_descr_orig",
+    "event_category_code",
+    "event_category_title"
+  ],
+  "rows": [
+    {
+      "event_auth": "JP",
+      "event_code": "RD05",
+      "event_descr": "NOTIFICATION OF REVOCATION OF POWER OF ATTORNEY",
+      "event_descr_orig": "NOTIFICATION OF REVOCATION OF POWER OF ATTORNEY",
+      "event_category_code": "R",
+      "event_category_title": "PARTY DATA CHANGE"
+    },
+    {
+      "event_auth": "MD",
+      "event_code": "FA9A",
+      "event_descr": "ABANDONMENT OR WITHDRAWAL OF APPLICATION (PATENT FOR INVENTION)",
+      "event_descr_orig": "CERERE ABANDONATA SAU RETRASA (BREVET)",
+      "event_category_code": "B",
+      "event_category_title": "APPLICATION DISCONTINUATION"
+    },
+    {
+      "event_auth": "WO",
+      "event_code": "708H",
+      "event_descr": "GB: DETERMINATION BEFORE GRANT OF UK ENTITLEMENT (SECTION 8(1)/1977)",
+      "event_descr_orig": "GB: DETERMINATION BEFORE GRANT OF UK ENTITLEMENT (SECTION 8(1)/1977)",
+      "event_category_code": " ",
+      "event_category_title": ""
+    },
+    {
+      "event_auth": "IL",
+      "event_code": "MEA",
+      "event_descr": "APPLICATION CANCELLED (APPLIC. FOR PATENT REVOCATION FILED)",
+      "event_descr_orig": "APPLICATION CANCELLED (APPLIC. FOR PATENT REVOCATION FILED)",
+      "event_category_code": "L",
+      "event_category_title": "IP RIGHT REVIEW REQUEST"
+    },
+    {
+      "event_auth": "IE",
+      "event_code": "NE29",
+      "event_descr": "APPLICATIONS FOR RESTORATION OF LAPSED PATENTS UNDER SECTION 29 OF THE PATENT ACT 1964",
+      "event_descr_orig": "APPLICATIONS FOR RESTORATION OF LAPSED PATENTS UNDER SECTION 29 OF THE PATENT ACT 1964",
+      "event_category_code": " ",
+      "event_category_title": ""
+    },
+    {
+      "event_auth": "GB",
+      "event_code": "476I",
+      "event_descr": "CASE DECIDED BY THE COMPTROLLER ** SPECIFICATION CORRECTED (SECT. 76/1949)",
+      "event_descr_orig": "CASE DEC. BY THE COMPTR. ** SPEC. CORRECTED (SECT. 76/1949)",
+      "event_category_code": " ",
+      "event_category_title": ""
+    },
+    {
+      "event_auth": "MD",
+      "event_code": "ND4Y",
+      "event_descr": "VALIDITY OF SHORT TERM PATENT EXTENDED [FROM 6 TO 10 YEARS]",
+      "event_descr_orig": "BREVET DE INVENTIE DE SCURTA DURATA AL CARUI TERMEN DE VALABILITATE A FOST PRELUNGIT",
+      "event_category_code": "G",
+      "event_category_title": "PROTECTION BEYOND IP RIGHT TERM"
+    },
+    {
+      "event_auth": "KR",
+      "event_code": "C193",
+      "event_descr": "REQUEST FOR WITHDRAWAL (ABANDONMENT)",
+      "event_descr_orig": "REQUEST FOR WITHDRAWAL (ABANDONMENT)",
+      "event_category_code": "B",
+      "event_category_title": "APPLICATION DISCONTINUATION"
+    },
+    {
+      "event_auth": "MX",
+      "event_code": "HC",
+      "event_descr": "CHANGE OF COMPANY NAME OR JURIDICAL STATUS",
+      "event_descr_orig": "CAMBIO DE RAZON SOCIAL Y CAMBIO DE REGIMEN JURIDICO",
+      "event_category_code": "R",
+      "event_category_title": "PARTY DATA CHANGE"
+    },
+    {
+      "event_auth": "CR",
+      "event_code": "FC",
+      "event_descr": "REFUSAL",
+      "event_descr_orig": "SOLICITUD DENEGADA",
+      "event_category_code": "B",
+      "event_category_title": "APPLICATION DISCONTINUATION"
+    }
+  ],
+  "row_count": 10
+}

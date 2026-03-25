@@ -1,0 +1,147 @@
+{
+  "table_name": "tls201_appln",
+  "availability": [
+    "bigquery",
+    "tip"
+  ],
+  "description": "Core table containing patent application records with filing details, family information, and key metrics like grant status and citation counts.",
+  "columns": [
+    {
+      "name": "appln_filing_year",
+      "type": "INT64",
+      "description": "Year extracted from the filing date for easier temporal analysis."
+    },
+    {
+      "name": "appln_id",
+      "type": "INT64",
+      "description": "Unique identifier for each patent application in the database."
+    },
+    {
+      "name": "appln_auth",
+      "type": "STRING",
+      "description": "Two-letter code of the patent authority where the application was filed."
+    },
+    {
+      "name": "appln_nr",
+      "type": "STRING",
+      "description": "Application number assigned by the patent authority in a standardized format."
+    },
+    {
+      "name": "appln_kind",
+      "type": "STRING",
+      "description": "Single-letter code indicating the type of application (e.g., patent, utility model)."
+    },
+    {
+      "name": "appln_filing_date",
+      "type": "DATE",
+      "description": "Date when the patent application was officially filed with the patent authority."
+    },
+    {
+      "name": "appln_nr_epodoc",
+      "type": "STRING",
+      "description": "Application number in EPODOC format, a standardized European Patent Office format."
+    },
+    {
+      "name": "appln_nr_original",
+      "type": "STRING",
+      "description": "Original application number as assigned by the filing authority before standardization."
+    },
+    {
+      "name": "receiving_office",
+      "type": "STRING",
+      "description": "Patent office that received the international application (relevant for PCT applications)."
+    },
+    {
+      "name": "int_phase",
+      "type": "STRING",
+      "description": "Indicator of whether the application is in the international phase of the PCT process."
+    },
+    {
+      "name": "nat_phase",
+      "type": "STRING",
+      "description": "Indicator of whether the application has entered the national phase from PCT."
+    },
+    {
+      "name": "earliest_filing_date",
+      "type": "DATE",
+      "description": "Filing date of the earliest priority application in the patent family."
+    },
+    {
+      "name": "earliest_filing_id",
+      "type": "INT64",
+      "description": "Application ID of the earliest priority application in the family."
+    },
+    {
+      "name": "earliest_publn_date",
+      "type": "DATE",
+      "description": "Date of the first publication anywhere in the patent family."
+    },
+    {
+      "name": "earliest_pat_publn_id",
+      "type": "INT64",
+      "description": "Publication ID of the earliest publication in the patent family."
+    },
+    {
+      "name": "granted",
+      "type": "STRING",
+      "description": "Flag indicating whether the patent application was granted (Y) or not (N)."
+    },
+    {
+      "name": "inpadoc_family_id",
+      "type": "INT64",
+      "description": "Identifier grouping related patent applications into an extended INPADOC family."
+    },
+    {
+      "name": "nb_citing_docdb_fam",
+      "type": "INT64",
+      "description": "Count of distinct DOCDB families that cite this application, indicating technological impact."
+    },
+    {
+      "name": "nb_applicants",
+      "type": "INT64",
+      "description": "Number of applicants listed on the patent application."
+    },
+    {
+      "name": "nb_inventors",
+      "type": "INT64",
+      "description": "Number of inventors listed on the patent application."
+    },
+    {
+      "name": "ipr_type",
+      "type": "STRING",
+      "description": "Type of intellectual property right (e.g., patent, utility model, plant patent)."
+    },
+    {
+      "name": "internat_appln_id",
+      "type": "INT64",
+      "description": "Application ID of the corresponding international (PCT) application if applicable."
+    },
+    {
+      "name": "reg_phase",
+      "type": "STRING",
+      "description": "Indicator of whether the application is in the regional phase (e.g., European phase)."
+    },
+    {
+      "name": "earliest_filing_year",
+      "type": "INT64",
+      "description": "Year of the earliest filing date for temporal analysis."
+    },
+    {
+      "name": "earliest_publn_year",
+      "type": "INT64",
+      "description": "Year of the earliest publication date for temporal analysis."
+    },
+    {
+      "name": "docdb_family_id",
+      "type": "INT64",
+      "description": "Identifier grouping patent applications claiming the same priority into a DOCDB family."
+    },
+    {
+      "name": "docdb_family_size",
+      "type": "INT64",
+      "description": "Number of patent applications in the DOCDB family, indicating geographic breadth."
+    }
+  ],
+  "estimated_rows": 140525582,
+  "last_synced": "2026-02-08T17:07:41Z"
+}
