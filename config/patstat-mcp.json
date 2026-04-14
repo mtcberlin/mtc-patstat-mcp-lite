@@ -1,5 +1,0 @@
-{
-  "context_dir": "./data",
-  "prompt_file": "./config/prompts/default.txt",
-  "log_level": "INFO"
-}
