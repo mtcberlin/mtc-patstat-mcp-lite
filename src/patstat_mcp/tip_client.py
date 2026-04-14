@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import gzip
 import logging
+import os
 import re
 import shutil
 import sqlite3
@@ -20,8 +21,6 @@ import time
 from pathlib import Path
 
 import pandas as pd
-
-from .config import REPO_ROOT
 
 logger = logging.getLogger(__name__)
 
@@ -35,7 +34,10 @@ REFERENCE_TABLES = frozenset({
     "tls_ipc_hierarchy",
 })
 
-REFERENCE_DB_PATH = REPO_ROOT / "data" / "reference.db"
+# Reference DB is too large (~145 MB) to ship in the wheel. Callers supply
+# the path via PATSTAT_REFERENCE_DB; the consuming app (e.g. launch.py) is
+# responsible for downloading and decompressing data/reference.db.gz.
+REFERENCE_DB_PATH = Path(os.environ.get("PATSTAT_REFERENCE_DB", str(Path.home() / ".patstat-mcp" / "reference.db")))
 
 
 def _tables_in_query(sql: str) -> set[str]:
