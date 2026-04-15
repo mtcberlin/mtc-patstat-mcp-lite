@@ -99,13 +99,29 @@ This server runs exclusively on the EPO TIP platform using PatstatClient.
 """
 
 
+def _render_sql_generator_prompt() -> str:
+    """Load the SQL-generator system prompt and inject the live table list."""
+    template = cfg.prompt_file.read_text()
+    tables = ctx.list_tables()
+    table_lines = [f"- {t['table_name']}: {t['description']}" for t in tables]
+    return template.replace("{tables}", "\n".join(table_lines))
+
+
 @server.list_prompts()
 async def list_prompts():
     return [
         Prompt(
             name="usage",
             description="How to use this MCP server to generate PATSTAT queries"
-        )
+        ),
+        Prompt(
+            name="sql_generator",
+            description=(
+                "System prompt for an LLM that generates PATSTAT BigQuery SQL. "
+                "Enforces strict ```sql fenced output (no prose) so client-side "
+                "SELECT validators accept the result."
+            ),
+        ),
     ]
 
 
@@ -120,6 +136,16 @@ async def get_prompt(name: str) -> GetPromptResult:
                     content=TextContent(type="text", text=USAGE_PROMPT)
                 )
             ]
+        )
+    if name == "sql_generator":
+        return GetPromptResult(
+            description="PATSTAT SQL generator system prompt (BigQuery, fenced SQL output)",
+            messages=[
+                PromptMessage(
+                    role="user",
+                    content=TextContent(type="text", text=_render_sql_generator_prompt()),
+                )
+            ],
         )
     raise ValueError(f"Unknown prompt: {name}")
 
